@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create Axios instance
 const API = axios.create({
-  baseURL: '/api',
+  baseURL: 'https://mern-doctor-booking-33tr.onrender.com/api',
   headers: {
     'Content-Type': 'application/json',
   },
